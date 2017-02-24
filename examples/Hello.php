@@ -10,8 +10,6 @@ function Greetings($val="Hello World"){ // Function will default if $val is not 
 }
 
 Greetings(); // Outputs "Hello World" from $val
-
 Greetings($var); // Outputs "Hello World" from $var since it was passed to $val
-
 
 ?>
